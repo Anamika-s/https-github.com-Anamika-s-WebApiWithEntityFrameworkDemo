@@ -13,6 +13,6 @@ namespace WebApi.Infrastructure
         Batch CreateNewBatch(Batch batch);
         Batch EditBatchDetails(int id, Batch batch);
         Batch DeleteBatch(int id);
-
+       
     }
 }

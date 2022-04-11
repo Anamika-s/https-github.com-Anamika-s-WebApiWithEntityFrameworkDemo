@@ -34,6 +34,7 @@ namespace WebApi.Controllers
                 InitializeStudentList();
         }
 
+        [HttpGet]
         public List<Student> Get()
         {
             return list.ToList();
